@@ -6,3 +6,8 @@ def menu():
 	print("3. Complete Tasks")
 
 menu()
+
+def add_task():
+	task = input("Enter task: ")
+	tasks.append(task)
+	print("Tasks added")
