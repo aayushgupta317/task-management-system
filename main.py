@@ -24,6 +24,7 @@ def complete_task():
 
 
 def do_nothing():
+	print("Did nothing")
 	pass
 
 while True:
@@ -32,7 +33,7 @@ while True:
 
 	if choice == "1":
 		add_task()
-	
+
 	elif choice == "2":
 		view_tasks()
 	elif choice == "3":
@@ -40,4 +41,4 @@ while True:
 	elif choice == "4":
 		do_nothing()
 	else:
-		break
+		breaks
