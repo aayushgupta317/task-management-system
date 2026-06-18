@@ -16,6 +16,13 @@ def view_tasks():
 	for task in tasks:
 		print(task)
 
+def complete_task():
+	task = input("Enter task to complete:")
+	if task in tasks:
+		tasks.remove(task)
+		print("Task completed")
+
+
 def do_nothing():
 	pass
 
