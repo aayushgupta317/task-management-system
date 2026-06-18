@@ -12,6 +12,10 @@ def add_task():
 	tasks.append(task)
 	print("Tasks added")
 
+def view_tasks():
+	for task in tasks:
+		print(task)
+
 def do_nothing():
 	pass
 
