@@ -40,5 +40,3 @@ while True:
 		complete_task()
 	elif choice == "4":
 		do_nothing()
-	else:
-		breaks
