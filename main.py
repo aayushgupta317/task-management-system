@@ -24,7 +24,6 @@ def complete_task():
 
 
 def do_nothing():
-	print("Did nothing")
 	pass
 
 while True:
