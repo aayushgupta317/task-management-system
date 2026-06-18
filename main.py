@@ -26,4 +26,18 @@ def complete_task():
 def do_nothing():
 	pass
 
-menu()
+while True:
+	menu()
+	choice = input("Choose option: ")
+
+	if choice == "1":
+		add_task()
+	
+	elif choice == "2":
+		view_tasks()
+	elif choice == "3":
+		complete_task()
+	elif choice == "4":
+		do_nothing()
+	else:
+		break
